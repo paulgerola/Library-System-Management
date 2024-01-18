@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>LOGIN</title>
+    <style type="text/css">
+        body{
+            margin: 10px 300px;
+            background: url('bg.jpg') no-repeat;
+            background-size: cover;
+            opacity: 0.8; 
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: #bfe752;">
+           <fieldset>
+        <center><h1>LOGIN</h1>
+        </center>
+    </fieldset>
+
+    <fieldset>
+        <legend><h2>Personal Information</h2></legend>
+        <form action="main.html" method="post">
+            <table>
+                    <tr><td>First Name:<td><input type=text name=fname placeholder=FirstName>
+                    <tr><td>Last Name:<td><input type=text name=lname placeholder=LastName>
+                    <tr><td>Middle Name:<td><input type=text name=Mn placeholder=MiddleName>
+                    <tr><td> Course Department <td>
+                    <select name="Course">
+                    <option value="CET">College of Engineering & Technology</option>
+                    <option value="COS">College of Health Sciences</option>
+                    <option value="CCJ">College of Criminal Justice</option>
+                    <option value="COE">College of Education</option>
+                    <option value="CBA">College of Business Administration</option>
+                    <option value="COL">College of Law</option>
+                    <option value="CAS">College of Arts and Sciences</option>
+                    <option selected>
+                  </select>
+                    <tr><td>Year and Section:<td><input type=text name=YaS placeholder=Year&Section>
+                    <tr><td>Age:<td><input type=number name=Age placeholder=Age>
+                    <tr><td>Birthday:<td><input type=date name=Bday placeholder=Birthday>
+                    <tr><td>Birthplace:<td><input type=text name=Bplace placeholder=Birthplace>
+                    <tr><td> Gender <td>
+                    <select name="Gender" id="Gender">
+                    <option value="Male">Male </option>
+                    <option value="Female">Female</option>
+                    <option value="LGBTIQA+">LGBTIQA+</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                  </select>
+	   </table>
+
+    <fieldset>
+            <center>
+                    <tr>
+                    <td><input type="Submit" value="Submit"></td>
+                    <td><input type="Reset" value="Reset"></td>
+                    </tr>
+            </center>
+    </fieldset>
+
+        </form>
+</div>
+</body>
+</html>
